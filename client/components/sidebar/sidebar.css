@@ -1,0 +1,56 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #FFFFFF;
+    width: 7em;
+    border-bottom-right-radius: 1.5em;
+    border-right: 0.1px solid grey;
+}
+
+.center-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.icon-container {
+    margin: 1.5em 0em;
+    z-index: 999999;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-image {
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    margin-top: -264px;
+}
+
+.settings-container {
+    margin: 1.5em 0em;
+    z-index: 999999;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    cursor: pointer;
+}
+
+.animated-bar {
+    height: 3em;
+    width: 0.25em;
+    background: #6434F8;
+    position: absolute;
+    left: 6.8em;
+    z-index: 999999;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition-duration: 100,
+
+}

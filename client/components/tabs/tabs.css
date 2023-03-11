@@ -1,0 +1,34 @@
+.icon-tab-container {
+    background-color: #FFFFFF;
+    padding: 0.5em 0.5em !important;
+    border-radius: 25px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.75em;
+}
+
+.tab {
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.vTab {
+    margin-top: 3.5em !important;
+    text-transform: none !important;
+    font-weight: 700 !important;
+    color: black !important;
+    font-size: 1.10em !important;
+
+}
+
+.MuiTabs-scrollableY .MuiTabs-indicator {
+    background-color: #6434F8 !important;
+    width: 2px !important;
+    height: 3em !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}

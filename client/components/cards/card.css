@@ -1,0 +1,97 @@
+.custom-card-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 2em;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 0.75em;
+    background: linear-gradient(211.76deg, #FFFFFF 5.12%, #FFFFFF 97.24%);
+    box-shadow: 0px 4.5034px 3.59296px rgba(100, 52, 248, 0.0197), 0px 10.8114px 8.64912px rgba(100, 52, 248, 0.0283), 0px 20.3547px 16.2903px rgba(100, 52, 248, 0.035), 0px 36.3198px 29.0526px rgba(100, 52, 248, 0.0417), 0px 67.9249px 54.3334px rgba(100, 52, 248, 0.0503);
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 65px;
+    height: 65px;
+}
+
+
+.space-around {
+    justify-content: space-around;
+}
+
+.progress-image {
+    width: 90px;
+    height: 90px;
+    margin-left: 200px;
+}
+
+
+.progress-container {
+    width: 90px;
+    height: 90px;
+}
+
+.card-text {
+    color: black !important;
+    font-size: 1.3rem !important;
+    font-family: Bold !important;
+    font-weight: 400 !important;
+    line-height: 1.75rem !important;
+}
+
+.card-text-bold {
+    color: black !important;
+    font-size: 2.3rem !important;
+    font-family: Bold !important;
+    font-weight: 600 !important;
+    line-height: 2.75rem !important;
+}
+
+.card-white-text {
+    color: white !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    font-family: Bold !important;
+    line-height: 1.75rem !important;
+}
+
+.card-white-text2 {
+    color: white !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    font-family: Regular !important;
+    line-height: 1.25rem !important;
+}
+
+
+.purple-card-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 1.5em;
+    padding-right: 2em;
+    border-radius: 30px;
+    margin: 0.75em;
+    background: linear-gradient(262.07deg, #5946F9 2.12%, #7F08F6 91.71%);
+    box-shadow: 0px 2.77px 2.21px rgba(77, 128, 160, 0.0197), 0px 6.65px 5.32px rgba(77, 128, 160, 0.0283), 0px 12.52px 10.02px rgba(77, 128, 160, 0.035), 0px 22.34px 17.87px rgba(77, 128, 160, 0.0417), 0px 41.78px 33.42px rgba(77, 128, 160, 0.0503), 0px 100px 80px rgba(77, 128, 160, 0.07);
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+}
+
+.container-two {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    flex-direction: row;
+}

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Bold";
+    src: url('./fonts/Jost-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url('./fonts/JostRegular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Bold', 'Regular';
+}
+
+
+.root-container {
+    display: flex;
+}
+
+.p-04 {
+    padding: 0.3em !important;
+}
+
+.container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+.container-fullwidth {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.btn-shadow {
+    box-shadow: 0px 4.5034px 3.59296px rgba(100, 52, 248, 0.0197), 0px 10.8114px 8.64912px rgba(100, 52, 248, 0.0283), 0px 20.3547px 16.2903px rgba(100, 52, 248, 0.035), 0px 36.3198px 29.0526px rgba(100, 52, 248, 0.0417), 0px 67.9249px 54.3334px rgba(100, 52, 248, 0.0503) !important;
+}
+
+.dummy-text {
+    padding: 2em;
+    color: grey;
+}
+
+.form-title {
+    font-weight: 600 !important;
+    color: black !important;
+    font-family: Bold !important;
+    font-size: 1rem !important;
+    line-height: 1.25rem !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.form-title-btn {
+    font-weight: 600 !important;
+    color: #6434F8 !important;
+    text-transform: none !important;
+    font-family: Bold !important;
+    font-size: 1rem !important;
+    line-height: 1.25rem !important;
+}
+
+.form-text {
+    font-weight: 300 !important;
+    color: black !important;
+    font-family: Regular !important;
+    font-size: 0.85rem !important;
+    line-height: 1rem !important;
+}
+
+.form-text-bold {
+    font-weight: 600 !important;
+    color: #787878 !important;
+    font-family: Bold !important;
+    font-size: 0.85rem !important;
+    line-height: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 10px !important;
+}
+
+.mb-5 {
+    margin-bottom: 10px !important;
+}
